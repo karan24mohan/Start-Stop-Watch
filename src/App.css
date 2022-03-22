@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +39,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+.startButton {
+  color: white;
+  background-color: green;
+}
+
+.stopButton {
+  color: white;
+  background-color: red;
+}
+
+.resetButton {
+  color: white;
+  background-color: blue;
 }
